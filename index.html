@@ -2,87 +2,97 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Support & Guidance</title>
+<title>Page Information Notice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body{
   margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#f2f5f9;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f1f4f8;
 }
-.container{
+.wrapper{
   max-width:420px;
-  margin:25px auto;
+  margin:30px auto;
+  padding:16px;
 }
 .card{
-  background:#fff;
-  border-radius:12px;
-  padding:16px;
-  margin-bottom:14px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+  background:#ffffff;
+  border-radius:14px;
+  padding:20px;
+  box-shadow:0 4px 14px rgba(0,0,0,0.08);
 }
-h3{
-  margin:0 0 6px;
+.icon{
+  width:60px;
+  height:60px;
+  margin:0 auto 12px;
+  border-radius:50%;
+  background:#1a73e8;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:26px;
+  font-weight:bold;
+}
+h2{
+  text-align:center;
+  margin:0 0 10px;
+  font-size:18px;
 }
 p{
   font-size:14px;
   color:#555;
-  line-height:1.5;
+  line-height:1.6;
 }
-.back{
+.btn{
   display:block;
+  margin-top:18px;
+  padding:14px;
   text-align:center;
-  padding:12px;
-  background:#e4e6eb;
-  color:#111;
-  border-radius:8px;
+  background:#1a73e8;
+  color:#fff;
   text-decoration:none;
+  border-radius:10px;
   font-weight:bold;
 }
-.footer{
+.disclaimer{
+  margin-top:14px;
   font-size:12px;
   color:#777;
   text-align:center;
-  margin-top:10px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
-
+<div class="wrapper">
   <div class="card">
-    <h3>Help Center</h3>
+
+    <div class="icon">i</div>
+
+    <h2>Important Page Information</h2>
+
     <p>
-      Find answers to common questions and learn how to
-      manage your page responsibly.
+      This page is created for general informational purposes only.
+      It helps page owners understand common account or page-related
+      notices and available public resources.
     </p>
-  </div>
 
-  <div class="card">
-    <h3>Contact Support</h3>
     <p>
-      For further assistance, visit the official support
-      resources provided by the platform.
+      No login, verification, or personal details are requested here.
+      Please always rely on official platform dashboards for actions.
     </p>
+
+    <!-- NEXT PAGE -->
+    <a href="next.html" class="btn">Continue</a>
+
+    <div class="disclaimer">
+      Independent information page • Not affiliated with any platform
+    </div>
+
   </div>
-
-  <div class="card">
-    <h3>Community Rules</h3>
-    <p>
-      Review general content standards to avoid future
-      restrictions.
-    </p>
-  </div>
-
-  <!-- BACK BUTTON -->
-  <a href="index.html" class="back">← Go Back</a>
-
-  <div class="footer">
-    Informational page • No data collection
-  </div>
-
 </div>
 
 </body>
