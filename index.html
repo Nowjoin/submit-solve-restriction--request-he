@@ -2,97 +2,166 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Page Information Notice</title>
+<title>Account & Page Information Center</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
-  background:#f1f4f8;
+  background:#eef2f7;
+  color:#333;
 }
-.wrapper{
-  max-width:420px;
-  margin:30px auto;
-  padding:16px;
+.container{
+  max-width:440px;
+  margin:20px auto;
+  padding:14px;
 }
 .card{
-  background:#ffffff;
-  border-radius:14px;
-  padding:20px;
-  box-shadow:0 4px 14px rgba(0,0,0,0.08);
+  background:#fff;
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  margin-bottom:18px;
 }
-.icon{
-  width:60px;
-  height:60px;
-  margin:0 auto 12px;
-  border-radius:50%;
+.header{
+  text-align:center;
+}
+.header img{
+  width:100%;
+  border-radius:12px;
+  margin-bottom:12px;
+}
+.badge{
+  display:inline-block;
   background:#1a73e8;
   color:#fff;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:26px;
-  font-weight:bold;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+  margin-bottom:10px;
 }
 h2{
-  text-align:center;
-  margin:0 0 10px;
   font-size:18px;
+  margin:10px 0;
 }
 p{
   font-size:14px;
-  color:#555;
   line-height:1.6;
+  color:#555;
 }
-.btn{
+.info-box{
+  background:#f5f8ff;
+  border-left:4px solid #1a73e8;
+  padding:12px;
+  border-radius:8px;
+  margin-top:14px;
+}
+.info-box ul{
+  margin:0;
+  padding-left:18px;
+}
+.info-box li{
+  font-size:13px;
+  margin-bottom:6px;
+}
+.section-img{
+  width:100%;
+  border-radius:10px;
+  margin:14px 0;
+}
+.button{
   display:block;
-  margin-top:18px;
-  padding:14px;
+  width:100%;
   text-align:center;
   background:#1a73e8;
   color:#fff;
+  padding:14px;
   text-decoration:none;
-  border-radius:10px;
+  border-radius:12px;
   font-weight:bold;
+  margin-top:16px;
 }
-.disclaimer{
-  margin-top:14px;
+.footer{
+  text-align:center;
   font-size:12px;
   color:#777;
-  text-align:center;
+  margin-top:10px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="wrapper">
-  <div class="card">
+<div class="container">
 
-    <div class="icon">i</div>
-
-    <h2>Important Page Information</h2>
-
+  <!-- TOP HD SECTION -->
+  <div class="card header">
+    <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284" alt="Information Banner">
+    <div class="badge">Information Notice</div>
+    <h2>Page & Account Review Overview</h2>
     <p>
-      This page is created for general informational purposes only.
-      It helps page owners understand common account or page-related
-      notices and available public resources.
+      This page provides general guidance related to page status,
+      visibility notices, and commonly observed account-related messages.
     </p>
-
-    <p>
-      No login, verification, or personal details are requested here.
-      Please always rely on official platform dashboards for actions.
-    </p>
-
-    <!-- NEXT PAGE -->
-    <a href="next.html" class="btn">Continue</a>
-
-    <div class="disclaimer">
-      Independent information page • Not affiliated with any platform
-    </div>
-
   </div>
+
+  <!-- DETAILS SECTION -->
+  <div class="card">
+    <h2>What This Page Covers</h2>
+    <p>
+      The information shared here is designed to help page owners
+      understand how review systems usually work and what steps
+      are generally recommended when an issue appears.
+    </p>
+
+    <img class="section-img"
+     src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+     alt="Dashboard">
+
+    <div class="info-box">
+      <ul>
+        <li>General page visibility information</li>
+        <li>Understanding review or notice messages</li>
+        <li>Best practices for keeping pages compliant</li>
+        <li>Where to find official help resources</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SAFETY SECTION -->
+  <div class="card">
+    <h2>Important Safety Notes</h2>
+    <p>
+      This website does not request passwords, login details,
+      cookies, IDs, or private information of any kind.
+    </p>
+
+    <img class="section-img"
+     src="https://images.unsplash.com/photo-1563013544-824ae1b704d3"
+     alt="Security">
+
+    <p>
+      For actions like appeals or account changes, users should
+      always use the official platform dashboard directly.
+    </p>
+  </div>
+
+  <!-- NEXT PAGE BUTTON -->
+  <div class="card">
+    <h2>Continue for More Information</h2>
+    <p>
+      You may proceed to the next page to read additional
+      general guidance and commonly asked questions.
+    </p>
+
+    <a href="next.html" class="button">Continue</a>
+
+    <div class="footer">
+      Independent information page • No platform affiliation
+    </div>
+  </div>
+
 </div>
 
 </body>
